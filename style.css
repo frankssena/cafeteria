@@ -83,8 +83,8 @@ header {
 /*Section-main*/
 .section-bg {
   background: url("img/home-img.jpg");
- background-position: center;
- background-size: cover;
+  background-position: center;
+  background-size: cover;
   width: 100%;
  
 }
@@ -126,5 +126,71 @@ header {
   margin-bottom: 1rem;
 }
 .btn:hover {
+  font-size: 1rem;
+}
+
+/*Sobre*/
+.sobre .section-container {
+  width: 100%;
+  max-width: 80rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.sobre .section-container h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+.sobre .section-container span {
+  color: var(--main-color);
+}
+.section-container-sobre {
+  display: flex;
+  justify-content: space-around;
+}
+.section-container-sobre img {
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.10rem;
+}
+.section-container-sobre img:hover {
+  transform: scale(0.9)
+}
+.sobre-content {
+  background-color: var(--black);
+  height: 30rem;
+  border-radius: 0.10rem;
+}
+.sobre-content:hover {
+  transform: scale(0.9)
+}
+.sobre-content h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 1rem;
+}
+.sobre-content p {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.btn-sobre {
+  background-color: var(--main-color);
+  padding: 0.8rem 2rem;
+  border-radius: 0.20rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+.btn-sobre:hover {
   font-size: 1rem;
 }
