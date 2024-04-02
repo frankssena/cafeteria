@@ -26,6 +26,7 @@ body {
 
 /*Header*/
 header {
+  position: fixed;
   width: 100%;
   background-color: var(--black);
 }
@@ -77,4 +78,53 @@ header {
 }
 .section-container-menu-nav-icons img:hover {
   height: 2.8rem;
+}
+
+/*Section-main*/
+.section-bg {
+  background: url("img/home-img.jpg");
+ background-position: center;
+ background-size: cover;
+  width: 100%;
+ 
+}
+.section-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+}
+.section-bg .section-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.section-container h1{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+.section-container p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: var(--main-color);
+  padding: 0.8rem 1rem;
+  border-radius: 0.20rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+.btn:hover {
+  font-size: 1rem;
 }
