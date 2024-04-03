@@ -226,7 +226,7 @@ header {
  
 }
 .cards-menu-descrition {
-  border:  0.1rem solid rgba(255,255,255,0.3);
+  border:  0.1rem solid rgba(255,255,255,0.1);
   text-align: center;
   height: 24rem;
 }
@@ -266,9 +266,6 @@ header {
 }
 
 /*Nossos Clientes*/
-.clientes {
-  margin-bottom: 4rem;
-}
 .clientes h2 {
   color: #fff;
   font-size: 2rem;
@@ -284,7 +281,7 @@ header {
   gap: 2rem;
 }
 .section-container-clientes {
-  border:  0.1rem solid rgba(255,255,255,0.3);
+  border:  0.1rem solid rgba(255,255,255,0.1);
   text-align: center;
   height: 24rem;
 }
@@ -303,4 +300,29 @@ header {
   border-radius: 50%;
   margin-top: 2rem;
   width: 5rem;
+}
+
+/*Footer contatos*/
+footer {
+  width: 100%;
+  min-height: 80px;
+  background-color: var(--black);
+}
+footer p {
+  color: #fff;
+  font-size: 0.4rem;
+  font-weight: 200;
+  text-align: center;
+}
+.footer-contatos {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contatos a {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0.6rem;
+  text-decoration: none;
+  text-align: center;
 }
