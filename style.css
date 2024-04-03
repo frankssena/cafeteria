@@ -112,7 +112,7 @@ header {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-left: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -142,18 +142,20 @@ header {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 10rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 .sobre .section-container span {
   color: var(--main-color);
 }
 .section-container-sobre {
-  display: flex;
+  display: block;
   justify-content: space-around;
 }
 .section-container-sobre img {
-  height: 30rem;
+  width: 100%;
+  width: 32rem;
+  height: 18rem;
   background-position: center;
   background-size: cover;
   border-radius: 0.10rem;
@@ -163,7 +165,9 @@ header {
 }
 .sobre-content {
   background-color: var(--black);
-  height: 30rem;
+  width: 100%;
+  width: 32rem;
+  height: 24rem;
   border-radius: 0.10rem;
 }
 .sobre-content:hover {
@@ -171,16 +175,19 @@ header {
 }
 .sobre-content h3 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin: 2rem 1rem;
+  padding-top: 2rem;
 }
 .sobre-content p {
   color: #fff;
   font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
+  padding-top: 0.4rem;
 }
+
 .btn-sobre {
   background-color: var(--main-color);
   padding: 0.8rem 2rem;
@@ -189,8 +196,71 @@ header {
   font-weight: 500;
   color: #fff;
   margin-left: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .btn-sobre:hover {
+  font-size: 1rem;
+}
+
+/*Menu*/
+.menu {
+  padding-bottom: 4rem;
+}
+.menu h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.menu span {
+  color: var(--main-color);
+}
+
+.menu .section-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 2rem;
+ 
+}
+.cards-menu-descrition {
+  border:  0.1rem solid rgba(255,255,255,0.3);
+  text-align: center;
+  height: 24rem;
+}
+.cards-menu-descrition img {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+.cards-menu-descrition p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+.preco-menu  {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 2rem;
+}
+.preco-menu span {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+.btn-menu {
+  background-color: var(--main-color);
+  padding: 0.8rem 2rem;
+  border-radius: 0.20rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+}
+.btn-menu:hover {
   font-size: 1rem;
 }
