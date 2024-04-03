@@ -183,7 +183,7 @@ header {
 .sobre-content p {
   color: #fff;
   font-size: 0.8rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 1.4rem;
   padding-top: 0.4rem;
 }
@@ -263,4 +263,44 @@ header {
 }
 .btn-menu:hover {
   font-size: 1rem;
+}
+
+/*Nossos Clientes*/
+.clientes {
+  margin-bottom: 4rem;
+}
+.clientes h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.clientes .section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section-container-clientes {
+  border:  0.1rem solid rgba(255,255,255,0.3);
+  text-align: center;
+  height: 24rem;
+}
+.section-container-clientes p {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  margin: 0 0.4rem ;
+}
+.clientes-quote {
+  width: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.clientes-descrition {
+  border-radius: 50%;
+  margin-top: 2rem;
+  width: 5rem;
 }
