@@ -150,7 +150,6 @@ header {
 }
 .section-container-sobre {
   display: block;
-  justify-content: space-around;
 }
 .section-container-sobre img {
   width: 100%;
@@ -326,3 +325,110 @@ footer p {
   text-decoration: none;
   text-align: center;
 }
+
+/*Media Queries*/
+@media screen and (min-width: 375px) {
+  .section-container-sobre img {
+    width: 37.4rem;
+  }
+  .sobre-content {
+    width: 100%;
+    width:37.4rem;
+    height: 24rem;
+  }
+}
+@media screen and (min-width:425px) {
+  .section-container-sobre img {
+    width: 42.3rem;
+  }
+  .sobre-content {
+    width: 100%;
+    width:42.3rem;
+    height: 24rem;
+  }
+}
+@media screen and (min-width:768px) {
+  .section-container-logo img{
+    width: 10rem;
+  }
+  .section-container-menu a {
+    font-size: 1.2rem;
+  }
+  .section-container h1{
+    font-size: 3rem;
+  }
+  .section-container p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+  .section-container-sobre {
+    display: flex;
+    justify-content: center;
+  }
+  .section-container-sobre img {
+    width: 100%;
+    width: 32rem;
+    height: 22rem;
+  }
+  .sobre-content {
+    background-color: var(--black);
+    width: 100%;
+    width: 32rem;
+    height: 22rem;
+  }
+  .sobre-content h3 {
+    font-size: 1.8rem;
+    
+    padding-top: 1rem;
+  }
+  .sobre-content p {
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+  .clientes {
+    margin-bottom: 8rem;
+  }
+  .clientes .section-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-container-sobre img {
+    width: 100%;
+    width: 42rem;
+    height: 32rem;
+  }
+  .sobre-content {
+    background-color: var(--black);
+    width: 100%;
+    width: 42rem;
+    height: 32rem;
+  }
+  .sobre-content h3 {
+    font-size: 2.2rem;
+    padding-top: 1.6rem;
+  }
+  .sobre-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1.6rem;
+  }
+  .footer-contatos {
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-contatos a {
+    margin-top: 2.4rem;
+  }
+  footer .section-container p{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  } 
+}
+
